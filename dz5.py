@@ -3,7 +3,7 @@ import logging
 from collections import namedtuple
 import sys
 
-# Определение namedtuple для хранения информации о файлах и каталогах
+# Определение namedtuple для хранения информации о файлах и каталогах.
 FileInfo = namedtuple('FileInfo', ['name', 'extension', 'is_directory', 'parent_directory'])
 
 # Настройка логирования

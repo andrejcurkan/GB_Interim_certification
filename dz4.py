@@ -10,7 +10,7 @@ def main(number, text, verbose, repeat):
 
     # Формируем итоговую строку с учетом параметра repeat
     output = (text + ' ') * repeat
-    output = output.strip()  # Убираем лишний пробел в конце
+    output = output.strip()  # Убираем лишний пробел в конце.
 
     # Выводим результат
     print(f"Результат: {output}")

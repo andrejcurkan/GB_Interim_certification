@@ -15,6 +15,6 @@ def get_future_date(days):
 
 
 # Пример использования функции
-days_to_add = 10  # Количество дней для добавления
+days_to_add = 10  # Количество дней для добавления.
 future_date = get_future_date(days_to_add)
 print(f"Дата через {days_to_add} дней: {future_date}")

@@ -2,7 +2,7 @@ import logging
 
 # Настройка логгеров
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Общий уровень логирования для логгера
+logger.setLevel(logging.DEBUG)  # Общий уровень логирования для логгера.
 
 # Обработчик для DEBUG и INFO
 debug_info_handler = logging.FileHandler('debug_info.log', encoding='utf-8')
